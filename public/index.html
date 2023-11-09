@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic Weather App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple real-time weather and forecast app">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+        const openweatherApiKey = '<%= openweatherApiKey %>';
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Weather App Project</h1>
+        <img src="img/planet.svg" alt="Logo" id="logo">
+    </div>
+    <div class="navbar">
+        <a href="#">Contact Us</a>
+        <a href="#">Services</a>
+        <a href="#">Features</a>
+        <a href="#">Home</a>
+    </div>
+    <div class="weather-container">
+        <h2 id="location">Weather in</h2>
+        <h2 id="city"></h2>
+        <h2 id="state"></h2>
+        <p id="temperature"></p>
+        <p id="description"></p>
+        <div id="photo-container"></div>
+        <div class="forecast-list-container">
+            <ul id="forecast-list"></ul>
+        </div>
+    </div>
+    <input type="text" id="city-input" placeholder="Enter city name">
+    <button id="get-weather-button">GET YOUR LOCAL WEATHER</button>
+    <script src="js/script.js"></script>
+
+    <h2 class="pricing-heading">Here are some services we provide.</h2>
+    <p class="pricing-section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus iure
+        aliquam animi rerum hic amet
+        ut doloribus, tempora reiciendis id ab cumque sit architecto officiis impedit officia itaque. Culpa?</p>
+
+    <div class="pricing-container">
+        <div class="pricing-card">
+
+            <div class="pricing-box">
+                <div class="service">Widget</div>
+                <div class="price">$399</div>
+                <div class="service-description">A widget you can append to your website to increase engagement.
+                </div>
+                <ul class="service-benefits">
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                </ul>
+                <button class="service-button">Contact Us</button>
+            </div>
+
+            <div class="pricing-box">
+                <div class="service">Mobile App</div>
+                <div class="price">$1,499</div>
+                <div class="service-description">A customizable weather app to suit your company's needs.
+                </div>
+                <ul class="service-benefits">
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                </ul>
+                <button class="service-button">Contact Us</button>
+            </div>
+
+            <div class="pricing-box">
+                <div class="service">Turnkey Website</div>
+                <div class="price">Contact</div>
+                <div class="service-description">A full-fledged custom website for your company. Unlimited revisions.
+                </div>
+                <ul class="service-benefits">
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                    <li><span>&#10003;</span> Lorem ipsum dolor sit amet</li>
+                </ul>
+                <button class="service-button">Contact Us</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="left-content">
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Sitemap</a>
+        </div>
+        <div class="right-content">
+            <p>&copy; 2023 Joe Colina</p>
+        </div>
+    </div>
+</body>
+
+</html>

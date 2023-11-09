@@ -1,0 +1,269 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #e7eaf6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+/* Header CSS */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: -15px;
+    margin-top: -15px;
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* Nav Bar CSS */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    /* Link background color on hover */
+    background-color: #666;
+}
+
+#location,
+#city,
+#state,
+#temperature,
+#description {
+    font-size: 28px;
+    display: inline;
+
+}
+
+#temperature {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#temperature,
+#description {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline;
+}
+
+#photo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    /* Background color behind images */
+    background-color: #333;
+    padding: 20px;
+
+
+}
+
+img {
+    width: 30%;
+    max-width: 700px;
+    max-height: 575px;
+    object-fit: cover;
+    border: 3px solid #333;
+    /* Adds rounded corners to images */
+    border-radius: 10px;
+    /* Smooths hover effect */
+    transition: transform 0.2s;
+}
+
+img:hover {
+    /* Increases img size on hover */
+    transform: scale(1.05);
+}
+
+.forecast-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#forecast-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#forecast-list li {
+    margin: 5px;
+}
+
+#city-input {
+    color: #333;
+    width: 250px;
+    height: 26px;
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+#city-input,
+#get-weather-button {
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+
+#get-weather-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    /* Button size adjustment */
+    padding: 10px 16px;
+    /* Button width adjustment */
+    min-width: 120px;
+    min-height: 38px;
+    border: none;
+    color: #FFF;
+    background-color: #333;
+    transition: background-color .17s ease, color .17s ease;
+}
+
+#get-weather-button:hover {
+    background-color: #666;
+}
+
+.pricing-section {
+    max-width: 1040px;
+    margin: 0 auto;
+
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card {
+    display: flex;
+    max-width: 1060px;
+}
+
+.pricing-box {
+    border: 3px solid #999;
+    padding: 10px;
+    margin: 10px;
+    flex: 33.3%;
+    box-shadow: 6px 2px 25px -9px #00001A;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.service {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 54px;
+}
+
+.service-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 10px auto;
+    color: #666;
+}
+
+.service-benefits {
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666;
+}
+
+.service-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 10px;
+    padding: 10px 16px;
+    width: 100%;
+    border: none;
+    color: #FFF;
+    background-color: #333;
+    transition: background-color .17s ease, color .17s ease;
+}
+
+.service-button:hover {
+    background-color: #666;
+}
+
+/* Footer CSS */
+.footer {
+    background-color: #333;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    /* Align items vertically in the center */
+    align-items: center;
+    padding: -5px 5px;
+}
+
+.left-content a {
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Link color on hover */
+.left-content a:hover {
+    text-decoration: underline;
+}
+
+.right-content p {
+    color: #FFF;
+    margin-right: 10px;
+}
