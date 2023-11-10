@@ -35,5 +35,5 @@ StackOverflow,
 reddit,
 Discord,
 The Odin Project,
-freecodedamp,
+freecodecamp,
 beautifier.io
