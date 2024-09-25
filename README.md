@@ -23,7 +23,6 @@ Languages/Other:
 HTML5,
 CSS3,
 JavaScript,
-Node.js,
 Express,
 bodyParser,
 dotenv
