@@ -1,5 +1,5 @@
 # sample-weatherapp
-An app featuring HTML, CSS, JS, Node, Express, and APIs that pull current and forecast weather along with images for the query.
+An app featuring HTML, CSS, JS, Express, and APIs that pull current and forecast weather along with images for the query.
 
 **ATTENTION**: In order to run everything properly, generate your own OpenWeather & Unsplash API Keys, and place them in a .env file in the project's root folder (PORT:3000, or another port you choose.)
 
