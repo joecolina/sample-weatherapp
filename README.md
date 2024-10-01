@@ -24,8 +24,6 @@ HTML5,
 CSS3,
 JavaScript,
 Express,
-bodyParser,
-dotenv
 
 Outside Help:
 Google,
