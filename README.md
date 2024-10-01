@@ -3,7 +3,7 @@ An app featuring HTML, CSS, JS, Express, and APIs that pull current and forecast
 
 **ATTENTION**: In order to run everything properly, generate your own OpenWeather & Unsplash API Keys, and place them in a .env file in the project's root folder (PORT:3000, or another port you choose.)
 
-The previous app version was not considered safe, the APIs were not where they needed to be as there wasn't a proxy. This time around, I used Node.js, Express, bodyParser, and dotenv. APIs are now stored properly, there is now frontend and backend JS to handle the requests, routing, and endpoints. The website's functionality remains the same, just with added security.
+The previous app version was not considered safe, the APIs were not where they needed to be as there wasn't a proxy. This time around, I used Express, bodyParser, and dotenv. APIs are now stored properly, there is now frontend and backend JS to handle the requests, routing, and endpoints. The website's functionality remains the same, just with added security.
 
 ALL previous APIs (Openweather & Unsplash API) and functionality remain, the only major difference is the interactions with Express handling fetch requests.
 
